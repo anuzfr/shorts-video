@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     const fetchVideos = async () => {
       try {
-        const response = await fetch("http://localhost:3000/api/video", {
+        const response = await fetch("https://shorts-video-peach.vercel.app/api/video", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
