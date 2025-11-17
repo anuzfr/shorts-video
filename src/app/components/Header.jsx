@@ -32,7 +32,7 @@ export default function Header() {
             }
           >
             <Home className="w-6 h-6" />
-            <span className="hidden sm:inline">Video with AI</span>
+            <span className="hidden sm:inline">Clips</span>
           </Link>
 
           {/* Navigation and User Menu */}
